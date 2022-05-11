@@ -63,7 +63,7 @@
               <tr>
                 <td>
                    <div class="row">
-                       <%= link_to user_path(@user) do %>
+                       <%= link_to user_path(book.user.id) do %>
                           <%= image_tag @user.get_profile_image(50,50) %>
                        <% end %>
                    </div>
